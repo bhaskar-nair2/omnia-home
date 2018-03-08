@@ -33,6 +33,42 @@
 .circle a:hover {
     color: #eef;
 }
+/*Second button*/
+.circle2 {
+    width: 1vw;
+    height: 40vh;
+    opacity: 0;
+
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    transform: scale(0);
+
+    -webkit-transition: all 0.4s ease-out;
+    -moz-transition: all 0.4s ease-out;
+    transition: all 0.4s ease-out;
+}
+
+.open.circle2 {
+    opacity: 1;
+
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    transform: scale(1);
+}
+
+.circle2 a {
+    text-decoration: none;
+    color: black;
+    display: block;
+
+    position: absolute;
+
+}
+
+.circle2 a:hover {
+    color: #eef;
+}
+
 .menu-butt{
     width: 1vh;
     height: 40vh;
@@ -42,4 +78,10 @@
     height: 32vh;
     background: transparent;
     border-radius: 600px 50px 50px 600px;
+}
+.rarr2 {
+    width: 12vw;
+    height: 32vh;
+    background: transparent;
+    border-radius: 50px 600px 600px 50px;
 }
