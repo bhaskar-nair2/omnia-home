@@ -8,22 +8,60 @@
     <link rel="stylesheet" href="CSS/animate.min.css">
     <link rel="stylesheet" href="CSS/effects.css">
     <link rel="stylesheet" href="./CSS/design.css">
-     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./CSS/circularProps.css">
+
     <link rel="shortcut icon" href="./Omnia.ico" />
 
 
-    <title>Omni@:Building Solutions</title>
+    <title>Omni@</title>
 </head>
-<body bgcolor="white">
+<body>
+
+<nav class="navbar fixed-bottom">
+    <ul class="nav justify-content-center">
+        <li class="nav-item">
+            <a class="nav-link active" href="#">Active</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+        </li>
+    </ul>
+</nav>
 
 <div class="container-fluid position-fixed " style="height: 100%">
     <div class="row position-fixed nopd flexContainer" style="height: 100%">
         <div class="col-lg-1 nopd hidden-unless-xl"></div>
 
-        <div id="opt" class="col-xl-3 col-sm-4 nopd flexBox" style="justify-content: flex-end">
-            <i class="fa fa-user-circle-o fa-4x"></i>
+
+        <div  class="col-xl-3 col-sm-4 nopd flexBox" style="justify-content: flex-end">
+            <div class=" row flexBox nopd" style="width: inherit">
+                <div class="col nopd flexBox" style="width: 50%"></div>
+
+                <div class="col nopd flexBox" style="width: 50%" style="justify-content: flex-end">
+                    <div class="rarr2 nopd flexBox menu-butt2" style="justify-content: flex-end">
+                        <div class="circle2">
+                            <a href="" class="fa fa-facebook fa-2x"></a>
+                            <a href="" class="fa fa-twitter fa-2x"></a>
+                            <a href="" class="fa fa-linkedin fa-2x"></a>
+                            <a href="" class="fa fa-asterisk fa-2x"></a>
+                            <a href="" class="fa fa-twitter fa-2x"></a>
+                        </div>
+                        <i id="opt" class="menu-button2 fa fa-user-circle fa-4x"></i>
+                    </div>
+                </div>
+            </div>
+
         </div>
+
+
+
         <div class="col-xl-4 nopd flexBox" >
             <img id="logo" class="resImg" src="media/logo.png">
         </div>
@@ -32,18 +70,17 @@
 
 
 
-        <div id="media" class="col-xl-3 col-sm-4 nopd flexBox r1" style="justify-content: flex-start">
+        <div  class="col-xl-3 col-sm-4 nopd flexBox r1 hov" style="justify-content: flex-start">
             <div class=" row flexBox nopd" style="width: inherit">
                 <div class="col nopd flexBox" style="width: 50%">
-                    <div class="rarr position-fixed nopd flexBox menu-butt">
-                <i href="" class="menu-button fa fa-user-circle fa-4x"></i>
+                    <div class="rarr nopd flexBox menu-butt">
+                <i id="media" class="menu-button fa fa-user-circle fa-4x"></i>
 
                 <div class="circle">
                     <a href="" class="fa fa-facebook fa-2x"></a>
                     <a href="" class="fa fa-twitter fa-2x"></a>
                     <a href="" class="fa fa-linkedin fa-2x"></a>
-                    <a href="" class="fa fa-asterisk fa-2x"></a>
-                    <a href="" class="fa fa-twitter fa-2x"></a>
+                    <a href="" class="fa fa-youtube-play fa-2x"></a>
                 </div>
                     </div>
                 </div>
@@ -51,9 +88,6 @@
             </div>
 
         </div>
-
-
-
 
         <div class="col-lg-1 nopd hidden-unless-xl"></div>
     </div>
